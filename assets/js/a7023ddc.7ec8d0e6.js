@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfused_docs=self.webpackChunkfused_docs||[]).push([[9267],{8289:e=>{e.exports=JSON.parse('[{"label":"welcome","permalink":"/blog/tags/welcome","count":1}]')}}]);
