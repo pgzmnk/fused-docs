@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfused_docs=self.webpackChunkfused_docs||[]).push([[8742],{7325:s=>{s.exports=JSON.parse('{"label":"welcome","permalink":"/fused-docs/blog/tags/welcome","allTagsPath":"/fused-docs/blog/tags","count":1,"unlisted":false}')}}]);
