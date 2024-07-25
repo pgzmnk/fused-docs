@@ -9,7 +9,7 @@
 
 
 <link rel="search" type="application/opensearchdescription+xml" title="Fused" href="/fused-docs/opensearch.xml"><link rel="stylesheet" href="/fused-docs/assets/css/styles.dfc287fd.css">
-<script src="/fused-docs/assets/js/runtime~main.28e37fb4.js" defer="defer"></script>
+<script src="/fused-docs/assets/js/runtime~main.78ed23bc.js" defer="defer"></script>
 <script src="/fused-docs/assets/js/main.28370e77.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -28,7 +28,13 @@
 </ol>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="example">Example<a href="#example" class="hash-link" aria-label="Direct link to Example" title="Direct link to Example">​</a></h2>
 <p>This app illustrates the buffer analysis between two GeoPandas GeoDataFrames: road segment represented with <code>LineStrings</code> and a table of vehicle GPS locations represented with <code>Points</code>. To determine which vehicles are using specific roads, we create a buffer around the road segments using the GeoDataFrame&#x27;s <code>buffer</code> method and check which GPS points fall in this area using the <code>within</code> method.</p>
-<p>The road segments are marked in black: the intersection of Van Ness and Main Street, and Columbus Avenue. Scattered across the map are red dots, representing arbitrary GPS locations of vehicles. The key feature of this visualization is the blue buffer zone surrounding the road segments. Users can interact with a slider to adjust the size of this buffer, causing the blue area to expand or contract accordingly. As the buffer grows, it begins to encompass more of the red GPS points. Any GPS points that fall within the current buffer zone are highlighted in yellow, visually demonstrating how buffer analysis captures nearby points.</p>
+<p>The road segments are marked in black: the intersection of Van Ness and Main Street, and Columbus Avenue. Scattered across the map are red dots, representing arbitrary GPS locations of vehicles. The key feature of this visualization is the blue buffer zone surrounding the road segments.</p>
+<p>Users can interact with the two sliders on the sidebar to adjust:</p>
+<ul>
+<li>The number of vehicle points to show on the map</li>
+<li>The size of the buffer, causing the blue area to expand or contract accordingly</li>
+</ul>
+<p>As the buffer grows, it begins to encompass more of the red GPS points. Any GPS points that fall within the current buffer zone are highlighted in yellow, visually demonstrating how buffer analysis captures nearby points.</p>
 <!-- -->
 <!-- -->
 <iframe src="https://staging.fused.io/workbench#app/s/aH4sIAAAAAAAAA%2BVWW4%2BbOBT%2BKxbzkLAihEuYTCIhrXZHU6latVWn25cQIQebxDtgU2OaodX%2B9z3GuRAmrXalvlRLJLDP%2FTvH5zhfrUwQai0tVlZCKpQ3NSUprqqEHyhVS2j2hHCNKvJ0otZKUlwWTGlGrRKe8Bv0WDBCJdozsqWqTjhPK8G4qlEMIm4NzA2Wbt1JjRPrTVNuQFzkyIgtE8tBnoN8zzNvO%2BGbJs9B5rqB3zqmUXO97uV3by%2BIHNCgVaw3vm3Ce99w9Of9Q8J%2FBWMZznY0JVjhhBOao0Jg0m3Hx6hjH4wY%2F7GxaS8TjuDZkvyM7JQxVzZ8bAT0k1iz2w2ZRXNCSL7JZnOyIQTjuRfi4NYLySKiuXdLSURmZJHNwk1%2BFwTRPLrDob8IFlFEANfZ3Cmq46LHOwRpPj26pKqRPBWbv2im4sQyiiez9hlNwTiFkjK%2B%2FbkQneMeojKqgKMSRbsV%2FOfCJdSOyiEkI9Q7fc6gds4L1En3%2By8akKdzKxi%2FLwFd4ki4fellNSqwGq0ddEHi29EarJ9p7paKkirZuhnlSgpG3Nb5Pv%2FZAMpEAY0O78BMBlg1Ja%2FHQRfInqmdZvqHdgWBHcVmZHykO5YVFL1694iO7WCjG%2FTh7f3bJcqwRJgTpFgJCcJlZQxQwhRk6KLtwahOUap5Qo57SA16BxnE68732PfsQxWPvo7g%2BhEHVyJ%2BD9XQQV5r1tXoaCUFQpfeFSzGFIabjXIhkV4hxgd6p8yuT%2F6GYHpOViOOS6oRXXpb26YaN%2Bh3uAwURSWGhIEtc2Wk2Q5LdThDcHe490DstR1Ig522oHDeYb0Rz8vptCPUU7OfEiyfJp8XF%2B3FOFMMF%2BlnRvegD35jbfwjbB%2F1rudBP1ALphpC43Duzu%2FCIHQGfMG3RmDiB4E7C4NoMRD5IkQZ%2B8GAWjGV7WKvR7V76wK3VNbxaqADgf6hOYMgzRR6RcXrWvBO4ALy8dE1invN%2FFIiZ0VBSfxBNvQKF6omnr7Nhku7K3sKJ1FIqMoK7uBfuk3XbPrje%2BuroZ104fJXuxgUB0L2MH0%2FKBW9WfZ%2FT8dwlH87IQ%2B4qH9IRjzHc%2BAu%2FFdJiL6Xg%2FX5qrMtx5L0U8MkLWHu19ZyZU2rFksp9sfvxJ%2B78J9sklWhHxzeVSsI%2FDFMAy%2BYpV66x3UZBu5%2BV4C9A2%2FScPY80dP9i4BjAwyYaBVMfFwfnMJZ0stn8IJbWIA7o68nmrV2LFY%2FNEXxmElKubXMdSL%2F%2Fgf34rkaRQsAAA%3D%3D" height="1050px" width="100%" scrolling="no"></iframe>
