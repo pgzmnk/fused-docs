@@ -9,7 +9,7 @@
 
 
 <link rel="search" type="application/opensearchdescription+xml" title="Fused" href="/fused-docs/opensearch.xml"><link rel="stylesheet" href="/fused-docs/assets/css/styles.dfc287fd.css">
-<script src="/fused-docs/assets/js/runtime~main.3b430930.js" defer="defer"></script>
+<script src="/fused-docs/assets/js/runtime~main.fe62ed49.js" defer="defer"></script>
 <script src="/fused-docs/assets/js/main.28370e77.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -17,7 +17,7 @@
 <p>Buffer analyses helps extract meaningful insights from location-based information. It helps determine which objects fall within certain distance of areas of interest (AOIs) and account for possible real-world imprecisions in gps data. This technique can be applied to various scenarios, such as identifying the average speed on road segments or pinpointing intersections prone to accidents to improve road safety.</p>
 <p>In this tutorial we&#x27;ll explore how to buffer analysis between pairs of tables to determine which vehicles are using specific roads. Other common industry applications involve determining which stores are within a certain distance of an area of interest (AOI), and which buildings are within a certain distance of a body of water.</p>
 <div style="text-align:center"><img src="https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/section_11/5c7eb6fc4bcbfc5117d778f0aabfded6.jpg" alt="File" style="width:1200px"></div>
-<p><em>Visual representation of buffer around GeoPandas <code>Point</code>, <code>LineString</code>, and <code>Polygon</code> objects.</em></p>
+<p><em>Visual representation of buffer around GeoPandas <code>Point</code>, <code>LineString</code>, and <code>Polygon</code> objects.</em> <a href="https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/section_11/5c7eb6fc4bcbfc5117d778f0aabfded6.jpg" target="_blank" rel="noopener noreferrer">Reference.</a></p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-problem">The problem<a href="#the-problem" class="hash-link" aria-label="Direct link to The problem" title="Direct link to The problem">​</a></h2>
 <p>Once you determine which vehicle GPS points fall within a buffer, you can extract subsequent information such as average speed for each road segment. However, GPS data from vehicles isn&#x27;t always perfectly accurate. Factors like satellite signal obstruction, atmospheric conditions, and device limitations can cause variations in reported locations. This means that even when a vehicle is traveling on a road, its GPS coordinates might not align exactly with the road&#x27;s location on a map.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-solution-buffer-analysis">The solution: Buffer analysis<a href="#the-solution-buffer-analysis" class="hash-link" aria-label="Direct link to The solution: Buffer analysis" title="Direct link to The solution: Buffer analysis">​</a></h2>
