@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfused_docs=self.webpackChunkfused_docs||[]).push([[1991],{9775:s=>{s.exports=JSON.parse('{"permalink":"/blog","page":1,"postsPerPage":2,"totalPages":1,"totalCount":2,"blogDescription":"Latest blog posts from Fused.","blogTitle":"Fused blog!"}')}}]);

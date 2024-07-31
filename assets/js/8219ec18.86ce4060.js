@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfused_docs=self.webpackChunkfused_docs||[]).push([[7460],{8585:s=>{s.exports=JSON.parse('{"label":"udfs","permalink":"/blog/tags/udfs","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);
